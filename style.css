@@ -1,0 +1,41 @@
+html
+{
+	width: 100%;
+	height:100%;
+
+}
+body{
+		background: url(bg.jpg) no-repeat ;
+	height: 100%;width: 100%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+h1
+{
+	color: white;
+	text-align: center;
+}
+.btn-primary
+{
+	align-content: center;
+	background-color: rgba(255, 141, 10,0.5);
+	border-color: rgba(255, 141, 10,0.5);
+	border-radius: 30em;
+}
+.btn-primary:hover
+{
+	background-color: rgba(255, 141, 10,1);
+	border-color: rgba(255, 141, 10,1);
+	border-width: 4px;
+}
+.btn-xl
+{
+padding: 1em,2em;
+}
+.buffer
+{
+height: 100px;
+}
